@@ -1,0 +1,14 @@
+#studentA-container{
+    width: 100%;
+    background-color: #fff;
+    height: 50vh;
+}
+#studentA{
+    padding-top: 7%;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+#studentA button:hover{
+    background-color: #1e1e1e;
+}

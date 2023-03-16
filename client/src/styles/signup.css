@@ -1,0 +1,111 @@
+.App {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background: url(../images/bg.jpg) center;
+  }
+  .card {
+    height: 30vh;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+  }
+  .card h1{
+    margin: 0;
+    
+  }
+  .card *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    gap: 0.25em;
+  }
+  .form-group:last-child {
+    margin: 0;
+  }
+  .form-group > label {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #333;
+  }
+  .form-group > input {
+    border: 1px solid #333;
+    border-radius: 0.25em;
+    font-size: 1rem;
+    padding: 0.25em;
+  }
+  .step-title {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  input {
+    border: 2px solid rgb(98, 0, 255);
+    border-radius: 5px;
+    height: 35px;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .button-area {
+    display: flex;
+    align-content: space-between;
+  }
+  .firstButton{
+    float: right;
+  }
+  .secondButton{
+    float: left;
+  }
+  button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  textarea {
+    height: 5rem;
+  }
+  .loginSuccess{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4caf50;
+    color: #ffffff;
+  }
+  .loginSuccess:hover{
+    background-color: #1e1e1e;
+  }

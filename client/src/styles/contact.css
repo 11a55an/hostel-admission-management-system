@@ -1,0 +1,53 @@
+#contact-wrapper{
+  width: 100%;
+  height: 20vh;
+  background-color: #fff;
+  border: none;
+}
+#contact{
+  width: 85%;
+  margin: auto;
+}
+.tab1{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #ddd;
+}
+.tab1 p{
+  font-size: 19px;
+}
+.tab1 i{
+  font-size: 27px;
+}
+.tab2{
+  width: 38%;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #ddd;
+}
+.tab2 p{
+  font-size: 19px;
+}
+.tab2 i{
+  font-size: 27px;
+}
+.tab3{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+.tab3 p{
+  font-size: 19px;
+}
+.tab3 i{
+  font-size: 27px;
+}
+
+@media only screen and (max-width: 992px) {
+  .tab1,.tab2,.tab3{
+    width: 100%;
+    float: left;
+    display: block;
+  }
+}

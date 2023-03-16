@@ -1,0 +1,21 @@
+#admissionP-container{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+#admissionP{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 7%;
+}
+#admissionP table{
+    margin: auto;
+    border-collapse: collapse;
+}
+#admissionP table, th, td {
+    border: 1px solid;
+}
+#admissionP table tr,th{
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+#page-wrapper{
+    height: 20vh;
+    width: 100%;
+    background:  linear-gradient(rgba(48, 48, 48, 0.8), rgba(66, 66, 66, 0.8)), url(../images/bg.jpg) center;
+}
+#page{
+    width: 85%;
+    margin: auto;
+}
+#page h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 4%;
+    text-transform: capitalize;
+    color: #fff;
+}

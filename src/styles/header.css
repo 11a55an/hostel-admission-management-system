@@ -1,0 +1,39 @@
+header{
+    width: 75%;
+    margin: auto;
+    background: #fff;
+    color:#000;
+    height:90px;
+    position: relative;
+  }
+  #header{
+    width:30%;
+    float:left;
+  }
+  #header h1{
+    font-size:32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #menu ul, li{
+    display:inline-block;
+  }
+  #menu{
+    width:60%;
+    float:right;
+    text-align:right;
+    padding-top:20px;
+    padding-right:15px;
+  }
+  #menu li a{
+    color:#000;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right:20px;
+    padding:5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #menu li a:hover{
+    background-image:linear-gradient(90.01deg,#6284ff -42.68%,#ed5572 -61.01%,#ffb21d 146.51%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:5px;
+  }
